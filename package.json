@@ -1,0 +1,32 @@
+{
+  "name": "frameworks",
+  "version": "1.0.0",
+  "description": "Neighbhorhood map for udacity",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanyakt/Neighbhorhood-Map.git"
+  },
+  "author": "dhanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanyakt/Neighbhorhood-Map/issues"
+  },
+  "homepage": "https://github.com/dhanyakt/Neighbhorhood-Map#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-inline": "^0.3.6",
+    "grunt-pagespeed": "^2.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "ngrok": "^2.2.4"
+  }
+}

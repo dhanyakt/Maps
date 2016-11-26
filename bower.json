@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "homepage": "https://github.com/dhanyakt/Neighbhorhood-Map",
+  "authors": [
+    "Dhanya <dhanyakt@gmail.com>"
+  ],
+  "description": ": \"neighbhorhood map for udacity\"",
+  "main": ": bower.json",
+  "keywords": [
+    ":"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "knockout": "^3.4.1",
+    "jquery": "^3.1.1",
+    "materialize": "^0.97.8",
+    "oauth-signature": "^1.3.1"
+  }
+}

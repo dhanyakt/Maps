@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neighbhorhood Maps</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation menu for sidenav -->
+    <nav class="side-nav fixed open black" id="slide-out">
+        <h5>NC Attractions</h5>
+        <divider></divider>
+            <input data-bind="textInput: filter, " class=" white cyan-text" id="search" type="search" required>
+        <ul class="black" data-bind="foreach: filteredLocations">
+          <li>
+                <span data-bind="text: title,click: $parent.displayMarker"> </span>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Contents -->
+    <main class="grey-darken-3">
+        <header class="row  grey darken-3 cyan-text ">
+            <div class="col s12 m12 l12">
+                <a href="#" data-activates="slide-out" class="button-collapse hamburger_icon right" ><i class="material-icons">menu</i></a>
+            </div>
+        </header>
+        <section class="row">
+            <div class="col s12 m12 l12" id="map"></div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="bower_components/knockout/dist/knockout.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="bower_components/oauth-signature/dist/oauth-signature.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1ygJSrmn7OsvV7Lriv1nH_XjaOgqPkTk&v=3&callback=initApp" onerror="mapError()"
+    async defer></script>
+
+</body>
+</html>
