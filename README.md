@@ -1,6 +1,7 @@
 # Neighbhorhood Map
 
 An application which shows the NC attractions and their yelp ratings.
+
 Please download the necessary packages by viewing bower.json and package.json
 
 1. Used knockout framework for MVVM pattern
