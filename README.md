@@ -15,11 +15,11 @@ An application which shows the NC attractions and their yelp ratings.
 
  1. Download the bower using this link (https://bower.io/)
  2. Install packages
-  * _bower install knockout_
-  * _bower install jquery_
-  * _bower install materialize_
+   _bower install knockout_
+   _bower install jquery_
+   _bower install materialize_
  3. Install Grunt
-  *If you are not familiar with grunt go to this link(http://gruntjs.com/)
+  * If you are not familiar with grunt go to this link(http://gruntjs.com/)
  4. Install grunt packages
   * npm install grunt-pagespeed --save-dev
   * npm install grunt-ngrok --save-dev
