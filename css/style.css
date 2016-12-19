@@ -1,20 +1,8 @@
-/** {
-   outline: 1px solid white !important;
-} */
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 html {
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
-    font-weight: normal;
     color: rgba(0,0,0,0.87);
-    font-size: large;
+    font-size: medium;
 }
 
 html, body, main{
@@ -26,12 +14,11 @@ header, main {
       padding-left: 240px;
     }
 
-    @media only screen and (max-width : 600px) {
-      header, main, footer {
-        padding-left: 0;
+@media only screen and (max-width : 600px) {
+    header,footer,main {
+        padding-left: 0px;
       }
-    }
-
+}
 .row {
     margin-bottom: 0px;
 }
@@ -41,7 +28,7 @@ header, main {
 }
 
 .hamburger_icon {
-    margin-top: 1em;
+    margin-top: 8px;
 }
 
 
